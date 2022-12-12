@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers\Admin\HomeController as Admin;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +23,8 @@ Route::get('/', function () {
 Route::prefix('admin')->namespace('Admin')->group(function(){
     Route::view('/','admin.index');
 });
+
+// Users Route
+Route::resource('user',UsersController::class);
+
+
