@@ -2,16 +2,12 @@
     <div class="container">
         <div class="section-title white-color">
             <h2>وبلاگ</h2>
-
-            <div class="back-text">
-                رویدادها
-            </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post white-color">
-                    <div class="post-image">
+            <div class="col-lg-4 col-md-6" >
+                <div class="single-blog-post white-color " style="border-radius: 20px;background-color:#000221">
+                    <div class="post-image m-2" style="border-radius: 20px">
                         <a href="#"><img src="assets/img/blog-img1.jpg" alt="image"></a>
                     </div>
 
@@ -24,7 +20,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post white-color">
+                <div class="single-blog-post white-color ">
                     <div class="post-image">
                         <a href="#"><img src="assets/img/blog-img2.jpg" alt="image"></a>
                     </div>
