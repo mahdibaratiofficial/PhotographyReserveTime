@@ -16,9 +16,9 @@ use App\Models\User;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('main.reserve');
+// });
 
 Route::prefix('admin')->namespace('Admin')->group(function(){
     Route::view('/','admin.index');
@@ -26,5 +26,7 @@ Route::prefix('admin')->namespace('Admin')->group(function(){
 
 // Users Route
 Route::resource('user',UsersController::class);
+Route::view('/', 'main.index');
+Route::view('reserve', 'main.reserve');
 
 
