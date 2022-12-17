@@ -121,7 +121,7 @@ p:last-child {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-bottom: 105px;
+  padding-bottom: 60px;
   margin-bottom: 30px;
   margin-top: -9px;
 }
@@ -130,7 +130,7 @@ p:last-child {
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 38px;
-  font-family: "Sahel-FD", serif;
+  /* font-family: "Sahel-FD", serif; */
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@ p:last-child {
   font-weight: 900;
 }
 
-.section-title::before {
+/* .section-title::before {
   content: '';
   left: 0;
   right: 0;
@@ -158,7 +158,7 @@ p:last-child {
   height: 50px;
   background: #000000;
   position: absolute;
-}
+} */
 
 .section-title.white-color h2 {
   color: #ffffff;
@@ -339,6 +339,7 @@ Navbar Area CSS
 
 .navbar {
   padding: 0;
+  /* border-radius: 0 0 20px 20px; */
 }
 
 .navbar.is-sticky {
@@ -743,20 +744,20 @@ Services Area CSS
   margin-bottom: 30px;
   position: relative;
   padding: 23px;
-  background: #000000;
+  background: #fff;
 }
 
 .single-services-box .icon {
   display: inline-block;
   width: 75px;
   height: 72px;
-  background: #ffde29;
+  background: #4762FF;
   position: absolute;
   top: 0;
   left: 23px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
@@ -781,34 +782,35 @@ Services Area CSS
 }
 
 .single-services-box h3 {
-  color: #ffffff;
+  color: #1833b9;
   margin-bottom: 0;
   padding-left: 93px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 24px;
-  font-weight: 700;
 }
 
 .single-services-box p {
-  color: #eeeeee;
+  color: #232323;
   margin-top: 45px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-services-box:hover .icon {
-  color: #000000;
-  background: #ffffff;
+
+  background: #7c8bde;
+  padding-top: 20px;
+  
 }
 
 .single-services-box.bg-main-color {
-  background: #ffde29;
+  background: #4762FF;
 }
 
 .single-services-box.bg-main-color .icon {
-  background: #000000;
-  color: #ffde29;
+  background: #fff;
+  color: #4762FF;
 }
 
 .single-services-box.bg-main-color h3 {
@@ -870,12 +872,12 @@ Services Area CSS
   background-color: #000000;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 2p  x 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 }
 
 .single-services-box.bg-dark-color:hover {
-  background-color: #ffde29;
+  background-color: rgb(233, 228, 228);
 }
 
 .single-services-box.bg-dark-color:hover h3 {
@@ -2591,3 +2593,48 @@ Go Top CSS
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+.shabnam{
+  font-family: Shabnam;
+}
+
+.c-btn{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+.c-btn-primary{
+  color: white;
+  background-color: #4762EF;
+}
+
+.c-btn-primary:hover{
+  background-color: #4762FF;
+  transition: 0.5s;
+}
+.c-form-control{
+  margin:1px;
+display: block;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.c-text-primary{
+  color: #4762EF;
+  
+}
+
+.c-bg-light{
+  background-color: #fef8dd;
+}

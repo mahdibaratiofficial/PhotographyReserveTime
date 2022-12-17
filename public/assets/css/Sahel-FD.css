@@ -5,3 +5,14 @@ url('../fonts/Sahel-FD.ttf') format('truetype'),
 url('../fonts/Sahel-FD.woff2') format('woff2'),
 url('../fonts/Sahel-FD.woff') format('woff');
 }
+
+
+@font-face {
+font-family: 'Shabnam';
+src: url('../fonts/Shabnam.eot?#') format('eot'),
+url('../fonts/Shabnam.ttf') format('truetype'),
+url('../fonts/Shabnam.woff2') format('woff2'),
+url('../fonts/Shabnam.woff') format('woff');
+}
+
+
