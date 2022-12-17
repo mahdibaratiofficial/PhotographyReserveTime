@@ -1,0 +1,15 @@
+.x-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.space{
+    word-spacing: 50px;
+}
+
+.cal-item{
+    padding: 5px;
+    margin: 5px;
+
+    background-color: blue;
+    text-cente
+}
