@@ -1,24 +1,22 @@
-<div class="main-banner bg-dark-color">
+<div class="main-banner c-bg-light mt-5">
     <div class="d-table ">
         <div class="d-table-cell">
             <div class="container-fluid ">
                 <div class="row align-items-center m-3">
-                    <div class="col-lg-4 col-md-5">
-                        <div class="main-banner-content white-color mt-2">
-                          <span class="h1 bold">جمله عکاسی</span>
-                          <span class="">توضیحات اضافه</span>
-
-                            <img src="https://cdn3d.iconscout.com/3d/free/thumb/camera-3823384-3187534@0.png"  />
-
-                            
-
-                            <button type="button" class="btn btn-primary" > برای رزرو وقت کلیک کنید</button>
-
-                            <p>یک طراحی مدرن و پاسخگو برای وب و تلفن همراه ایجاد کنید..</p>
-                        </div>
+                    <div class="col-12 col-md-7 text-center order-1 ">
+                            <img src="{{ asset('assets/img/main_cam.png') }}" width="700px"  />
                     </div>
 
-                    <div class="col-lg-8 col-md-7 p-5">
+                    <div class="col-12 col-md-5 text-right">
+                      <h1 class="c-text-primary m-4 " style="font-weight: 900;font-size:60px"> عکس ها سندی هستند که با ثبت یک لحظه راوی تاریخ میشوند. </h1>
+                      <span class="text-gray m-4"> به راحتی با چند قدم ساده تایمی رزرو کنید </span>
+                      <br>
+                      <a href="{{ url('reserve') }}" type="button" class="c-btn c-btn-primary m-3" style="width:160px;text-align:center"> رزرو تایم </a>
+                    </div>
+
+
+
+                    {{-- <div class="col-lg-8 col-md-7 p-5">
                         <div class="banner-image text-center">
                             <div id="carouselExampleControls" class="carousel slide "  style="" data-ride="carousel">
                                 <div class="carousel-inner" >
@@ -43,7 +41,7 @@
                               </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

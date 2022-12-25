@@ -14,3 +14,4 @@ yarn-error.log
 /.idea
 /.vscode
 /public/assets/img
+/public/assets/adminPanelAssets

@@ -19,14 +19,18 @@ class CreateReservesTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->cascadeOnDelete();
 
-            $table->unsignedBigInteger('type_id');
-            $table->foreign('type_id')->references('id')->on('type')->cascadeOnDelete();
+            $table->string('type');
 
+            
             $table->text('description')->nullable();
 
             $table->string('number')->nullable();
 
             $table->enum('norification_type',['sms','ring','email','none']);
+
+            $table->enum('status', ['done','reject','proccessing','not-seen']);
+
+            $table->string('part', 10);
 
             $table->timestamp('reserve_time');
         });

@@ -16,3 +16,14 @@ url('../fonts/Shabnam.woff') format('woff');
 }
 
 
+@font-face {
+    font-family: 'irancell';
+    src:url('../fonts/MTNIrancell-Bold.ttf') format('truetype'),
+}
+
+.irancell{
+    font-family: 'irancell';
+    font-weight: 1000px;
+}
+
+

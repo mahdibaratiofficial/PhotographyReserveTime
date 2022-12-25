@@ -1,17 +1,12 @@
-<section id="feedback" class="testimonial-area ptb-120 bg-black-color">
+<section id="feedback" class="testimonial-area ptb-120 c-bg-light">
     <div class="container">
         <div class="section-title">
-            <h2>مشتریان ما</h2>
-
-            <div class="back-text">
-                بازخورد
-            </div>
+            <h1 class="c-text-primary">مشتریان ما</h1>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6 offset-lg-2 offset-md-0">
-                <div class="single-feedback-item bg-gray-dark">
-                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+                <div class="single-feedback-item ">
 
                     <div class="client-info">
                         <img src="assets/img/author1.jpg" alt="image">
@@ -20,13 +15,14 @@
                         <span>موسس سایت</span>
                     </div>
 
-                    <i class="flaticon-left-quote"></i>
+                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+
+                    {{-- <i class="flaticon-left-quote"></i> --}}
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="single-feedback-item bg-gray-dark">
-                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+                <div class="single-feedback-item">
 
                     <div class="client-info">
                         <img src="assets/img/author2.jpg" alt="image">
@@ -35,14 +31,13 @@
                         <span>موسس سایت</span>
                     </div>
 
-                    <i class="flaticon-left-quote"></i>
+                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="single-feedback-item bg-gray-dark">
-                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
-
+                <div class="single-feedback-item">
                     <div class="client-info">
                         <img src="assets/img/author3.jpg" alt="image">
 
@@ -50,13 +45,12 @@
                         <span>موسس سایت</span>
                     </div>
 
-                    <i class="flaticon-left-quote"></i>
+                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="single-feedback-item bg-gray-dark">
-                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+                <div class="single-feedback-item">
 
                     <div class="client-info">
                         <img src="assets/img/author4.jpg" alt="image">
@@ -65,13 +59,13 @@
                         <span>موسس سایت</span>
                     </div>
 
-                    <i class="flaticon-left-quote"></i>
+                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                <div class="single-feedback-item bg-gray-dark">
-                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+                <div class="single-feedback-item">
 
                     <div class="client-info">
                         <img src="assets/img/client-img1.jpg" alt="image">
@@ -80,7 +74,8 @@
                         <span>موسس سایت</span>
                     </div>
 
-                    <i class="flaticon-left-quote"></i>
+                    <p>لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
+                    
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@
 
         <!-- End Navbar Area -->
 
-       @yield('content')
+        @yield('content')
 
         <!-- Start Copyright Area -->
 

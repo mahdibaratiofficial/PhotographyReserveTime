@@ -1,21 +1,21 @@
 <section id="portfolio" class="portfolio-area ptb-120 c-bg-light">
     <div class="container">
         <div class="section-title">
-            <h2>نمونه کارهای من</h2>
+            <h2 class="c-text-primary">نمونه کارهای من</h2>
         </div>
 
         <div class="shorting-menu white-color">
-            <button class=" c-btn c-btn-primary" style="border-radius: 10px" data-filter="all"><i class="flaticon-setup"></i> همه</button>
-            <button class="c-btn c-btn-primary" style="border-radius: 10px" data-filter=".design">طراحی وب</button>
-            <button class="c-btn c-btn-primary" style="border-radius: 10px" data-filter=".photography">عکاسی</button>
-            <button class="c-btn c-btn-primary" style="border-radius: 10px" data-filter=".development">توسعه دهنده</button>
-            <button class="c-btn c-btn-primary" style="border-radius: 10px" data-filter=".marketing">بازاریابی</button>
+            <button class="filter" style="border-radius: 10px" data-filter="all"><i class="flaticon-setup"></i> همه</button>
+            <button class="filter" style="border-radius: 10px" data-filter=".design">طراحی وب</button>
+            <button class="filter" style="border-radius: 10px" data-filter=".photography">عکاسی</button>
+            <button class="filter" style="border-radius: 10px" data-filter=".development">توسعه دهنده</button>
+            <button class="filter" style="border-radius: 10px" data-filter=".marketing">بازاریابی</button>
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="shorting">
-            <div class="row">
+            <div class="row m-5">
                 <div class="col-lg-4 col-sm-6 col-md-6 mix design">
                     <div class="single-portfolio-box" style="border-radius: 25px">
                         <img src="assets/img/portfolio-img1.jpg" alt="image">

@@ -6,6 +6,7 @@
  <!-- Start Main Banner Area -->
         
  <x-main-banner />
+ 
 
  <!-- End Main Banner Area -->
 
@@ -24,13 +25,12 @@
 
  <!-- Start About Area -->
 
- <x-about />
 
  <!-- End About Area -->
 
  <!-- Start Testimonial Area -->
 
-
+ <x-customers />
 
  <!-- End Testimonial Area -->
 

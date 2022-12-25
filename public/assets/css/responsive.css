@@ -33,10 +33,10 @@
   .navbar {
     padding-left: 15px;
     padding-right: 15px;
-text-align: right;
+    text-align: right;
   }
   .navbar.navbar-style-two {
-    position: relative;
+    position: relative ;
   }
   .navbar.navbar-style-three {
     margin-top: 0;
@@ -44,17 +44,16 @@ text-align: right;
   .navbar-light .navbar-toggler {
     padding: 3px 10px;
     outline: 0;
-    border-color: #000000;
     border-radius: 0;
   }
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .navbar-light .navbar-nav {
-    background-color: #000000;
+    /* background-color: #000000; */
     padding: 20px;
     margin-top: 5px;
-text-align: right;
+    text-align: right;
   }
   .navbar-light .navbar-nav .nav-item {
     padding-left: 0;

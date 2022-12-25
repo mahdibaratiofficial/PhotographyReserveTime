@@ -124,14 +124,15 @@ p:last-child {
   padding-bottom: 60px;
   margin-bottom: 30px;
   margin-top: -9px;
+  font-size: 300px;
 }
 
-.section-title h2 {
+.section-title h1 {
   margin-bottom: 0;
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 70px;
   /* font-family: "Sahel-FD", serif; */
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .section-title .back-text {
@@ -141,7 +142,7 @@ p:last-child {
   right: 0;
   margin: 0 auto;
   z-index: -1;
-  color: #000000;
+  color: #232323;
   opacity: .04;
   text-transform: uppercase;
   font-size: 146px;
@@ -161,7 +162,7 @@ p:last-child {
 } */
 
 .section-title.white-color h2 {
-  color: #ffffff;
+  color: #ffffff; 
 }
 
 .section-title.white-color .back-text {
@@ -322,7 +323,20 @@ Preloader Area CSS
 Navbar Area CSS
 =================================================*/
 .bg-light {
-  background-color: #ffde29 !important;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: #f4feff !important;
 }
 
 .bg-light.bg-gray-light {
@@ -338,8 +352,17 @@ Navbar Area CSS
 }
 
 .navbar {
-  padding: 0;
-  /* border-radius: 0 0 20px 20px; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff !important;
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navbar.is-sticky {
@@ -355,6 +378,8 @@ Navbar Area CSS
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  transition: 1s;
 }
 
 .navbar.navbar-style-two {
@@ -973,8 +998,8 @@ Portfolio Area CSS
 }
 
 .shorting-menu .filter {
-  border: 1px solid #000000;
-  background: transparent;
+  /* border: 1px solid #000000; */
+  background: white;
   font-size: 16px;
   font-weight: 600;
   padding: 5px 15px;
@@ -998,8 +1023,9 @@ Portfolio Area CSS
 }
 
 .shorting-menu.white-color .filter {
-  background-color: #111111;
-  border-color: #111111;
+  background-color: #3448a9;
+  /* border-color: #111111; */
+  border: none;
   color: #ffffff;
 }
 
@@ -1036,7 +1062,7 @@ Portfolio Area CSS
 .single-portfolio-box .portfolio-content {
   position: absolute;
   left: 0;
-  background-color: #000000;
+  background-color: white;
   bottom: 20px;
   padding: 25px;
   -webkit-transition: 0.5s;
@@ -1053,12 +1079,12 @@ Portfolio Area CSS
 }
 
 .single-portfolio-box .portfolio-content h3 a {
-  color: #ffde29;
+  color: #4762EF;
 }
 
 .single-portfolio-box .portfolio-content span {
   display: block;
-  color: #ffffff;
+  color: #000;
   margin-top: 8px;
   font-size: 15px;
   font-weight: 700;
@@ -1339,19 +1365,25 @@ Testimonial Area CSS
   margin-bottom: 30px;
   position: relative;
   padding: 20px;
-  background-color: #ffde29;
-  border-radius: 5px;
+  /* background-color: #ffde29; */
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 5px 2px 10px #ccc;
+  color: #111111;
+
 }
 
 .single-feedback-item p {
-  font-weight: 600;
+  /* font-weight: 600; */
+  text-align: right;
   margin-bottom: 0;
 }
 
 .single-feedback-item .client-info {
-  margin-top: 15px;
+  margin-top: 10px;
   position: relative;
   padding-left: 60px;
+  margin-bottom: 10px;
 }
 
 .single-feedback-item .client-info img {
@@ -1556,13 +1588,19 @@ Blog Area CSS
 }
 
 .single-blog-post {
+  border-radius: 30px;
   margin-bottom: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+
+  box-shadow: 5px 5px 10px #c4cdce;
 }
 
 .single-blog-post .post-image {
   overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 .single-blog-post .post-image a img {
@@ -1572,21 +1610,20 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content {
-  border: 1px solid #d9bd23;
   border-top: none;
   padding: 20px;
   border-radius: 0 0 5px 5px;
 }
 
 .single-blog-post .post-content h3 {
-  margin-bottom: 13px;
+  margin-bottom: 20px;
   line-height: 1.4;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .single-blog-post .post-content h3 a {
-  color: #000000;
+  color: #4762EF;
   position: relative;
   display: inline;
   -webkit-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
@@ -1604,7 +1641,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content p {
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-bottom: 15px;
   color: #313131;
 }
@@ -1661,9 +1698,9 @@ Blog Area CSS
 }
 
 .single-blog-post:hover .post-image a img {
-  -webkit-transform: scale(1.1) rotate(2deg);
+  /* -webkit-transform: scale(1.1) rotate(2deg);
           transform: scale(1.1) rotate(2deg);
-  opacity: 0.9;
+  opacity: 0.9; */
 }
 
 .single-blog-post.gray-light-color .post-content {
@@ -1718,33 +1755,20 @@ CTA Area CSS
   z-index: -1;
   top: 0;
   left: 0;
-  background-image: url(../../assets/img/black-bg.png);
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
+  text-align: center;
 }
 
-.cta-area.bg-gray-light::before {
-  background-image: url(../../assets/img/gray-black-bg.png);
-}
 
-.cta-area.bg-pink-color {
-  background-color: #f4feff;
-}
-
-.cta-area.bg-pink-color::before {
-  background-image: url(../../assets/img/pink-bg.png);
-}
 
 .cta-content {
   text-align: center;
 }
-
+.text-gray{
+  color: #111111;
+}
 .cta-content h2 {
   margin-bottom: 0;
-  color: #ffffff;
   font-size: 55px;
-  font-weight: 700;
 }
 
 .cta-content span {
@@ -1753,6 +1777,10 @@ CTA Area CSS
   color: #ebebeb;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.cta-content a{
+
 }
 
 /*================================================
@@ -1765,7 +1793,6 @@ Contact Area CSS
 .contact-info h3 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 700;
 }
 
 .contact-info h3:not(:first-child) {
@@ -1782,12 +1809,10 @@ Contact Area CSS
   margin-bottom: 10px;
   color: #3b3b3b;
   font-size: 16px;
-  font-weight: 600;
 }
 
 .contact-info .contact-info-list li span {
-  font-weight: 700;
-  color: #000000;
+  color: #4762EF;
   margin-right: 8px;
 }
 
@@ -2567,17 +2592,20 @@ Go Top CSS
   cursor: pointer;
   top: 0;
   right: 15px;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #fef8dd;
+  color: #4762EF;
   z-index: 4;
   width: 40px;
   text-align: center;
+  border-radius: 50%;
   height: 40px;
   line-height: 40px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: .9s;
   transition: .9s;
+  border: 1px solid #4762EF;
+
 }
 
 .go-top.active {
@@ -2589,12 +2617,10 @@ Go Top CSS
 }
 
 .go-top:hover, .go-top:focus {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #4762EF;
+  color: #fef8dd;
 }
 /*# sourceMappingURL=style.css.map */
-
-
 
 .shabnam{
   font-family: Shabnam;
@@ -2611,12 +2637,89 @@ Go Top CSS
   background-color: #4762EF;
 }
 
+.c-btn-primary-outline{
+  color: #4762EF;
+  background-color: transparent;
+  border: 2px solid #4762EF;
+}
+
+.c-btn-primary-outline:hover{
+  color: white;
+  background-color: #4762EF;
+  transition: 0.5s;
+}
+
 .c-btn-primary:hover{
   background-color: #4762FF;
   transition: 0.5s;
 }
+
+
+.c-btn-light{
+  color: #4762EF;
+  background-color: light;
+}
+
+.c-btn-light-outline{
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.c-btn-light-outline:hover{
+  color: #4762EF;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.c-btn-light:hover{
+  background-color: #4762FF;
+  transition: 0.5s;
+}
+
+
+.c-badge{
+  padding: 3px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.c-badge-primary{
+  color: white;
+  background-color: #4762EF;
+}
+
+.c-badge-light-outline{
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.c-badge-primary-outline{
+  color: #4762EF;
+  background-color: transparent;
+  border: 2px solid #4762EF;
+}
+
+
+.c-badge-white-outline{
+  color: white;
+  background-color: transparent;
+  border: 2px solid rgb(236, 222, 222);
+}
+
+.c-badge-light-outline:hover{
+  color: #4762EF;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.c-badge-primary:hover{
+  background-color: #4762FF;
+  transition: 0.5s;
+}
 .c-form-control{
-  margin:1px;
+margin:1px;
 display: block;
 width: 100%;
 padding: .375rem .75rem;
@@ -2635,6 +2738,65 @@ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   
 }
 
+.c-text-light{
+  color: #4762EF;
+  
+}
+
 .c-bg-light{
   background-color: #fef8dd;
 }
+
+.c-bg-white{
+  background-color: white;
+}
+
+.calander{
+  padding: 10px;
+  margin: 50px 15px 20px 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #ccc;
+}
+
+.calander span{
+  background-color: #ece5c7;
+  border: 1px solid #d7d2bc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.calander .calendar-info{
+  background-color: #5e75e9;
+  border-radius: 20px;
+}
+
+.calander .mounth{
+  text-align: center;
+}
+
+.calander  .dayName{
+  background-color: #73a4ff;
+  border: 1px solid #d7d2bc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+
+/* select */
+
+
+

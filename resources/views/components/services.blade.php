@@ -2,7 +2,7 @@
     <div class="container">
         <div class="section-title">
             <h1 class=" shabnam c-text-primary">
-                <img src="https://cdn3d.iconscout.com/3d/free/thumb/camera-3823384-3187534@0.png" width="80px" height="80px"  />
+                <img src="{{ asset('assets/img/cem.webp') }}" width="100px" height="100px"  />
                 خدمات من
             </h1>
             
@@ -12,8 +12,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-services-box " style="border-radius: 25px">
                     <div class="icon" style="border-radius: 0 0 20px 20px">
-                <img src="https://cdn3d.iconscout.com/3d/free/thumb/camera-3823384-3187534@0.png" width="50px" height="50px"  />
-                <i class="">   </i>
+                        <i class="flaticon-computer"></i>
                     </div>
                     <h3>طراحی وب</h3>
                     <p class="shabnam">لورم ایپسوم فقط یک صنعت ساخت متن برای صنعت چاپ و تحریر است. متن استاندارد ساختگی از قرن پانزدهم میلادی در این صنعت وجود دارد.</p>
